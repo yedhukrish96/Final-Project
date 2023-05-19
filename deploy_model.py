@@ -18,8 +18,8 @@ def main():
 
     # Display different pages based on user choice
     if choice == 'Home':
-        image_path = "Kivafinal.png"
-        st.image(image_path)
+        image = Image.open('Kivafinal.png')
+        st.image(image)
         st.header("Welcome to KIVA!!")
 
         st.write("Kiva is a non-profit organization that allows people to lend money via the Internet to low-income entrepreneurs and students in over 80 countries. Since its founding in 2005, Kiva has facilitated more than $1 billion in loans.", 
