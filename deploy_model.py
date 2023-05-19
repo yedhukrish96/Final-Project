@@ -18,7 +18,7 @@ def main():
 
     # Display different pages based on user choice
     if choice == 'Home':
-        image_path = os.path.join(os.path.expanduser('~'), 'Desktop', 'dokumenty', 'Kivafinal.png')
+        image_path = "Kivafinal.png"
         st.image(image_path)
         st.header("Welcome to KIVA!!")
 
@@ -28,11 +28,11 @@ def main():
          font_size=20)
         
         
-        image_path1 = os.path.join(os.path.expanduser('~'), 'Desktop', 'dokumenty', 'kiva_lending.png')
+        image_path1 = "kiva_lending.png"
         st.image(image_path1)
         
         
-        image_path2= os.path.join(os.path.expanduser('~'), 'Desktop', 'dokumenty', 'kiva_impact_tiny.png')
+        image_path2= "kiva_impact_tiny.png"
         st.image(image_path2)
         #st.image('/Desktop/dokumenty/KIVA.jpg')
         # Add other content for home page here
