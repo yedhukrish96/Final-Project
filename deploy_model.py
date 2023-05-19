@@ -28,12 +28,12 @@ def main():
          font_size=20)
         
         
-        image_path1 = "kiva_lending.png"
-        st.image(image_path1)
+        image1 = Image.open("kiva_lending.png")
+        st.image(image1)
         
         
-        image_path2= "kiva_impact_tiny.png"
-        st.image(image_path2)
+        image2= Image.open("kiva_impact_tiny.png")
+        st.image(image2)
         #st.image('/Desktop/dokumenty/KIVA.jpg')
         # Add other content for home page here
     elif choice == 'EDA':
