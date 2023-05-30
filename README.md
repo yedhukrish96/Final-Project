@@ -80,4 +80,4 @@ I hope that this project serves as a useful resource for anyone interested in ma
 ### Additional Information
 * Kaggle dataset obtained from - https://www.kaggle.com/datasets/kiva/data-science-for-good-kiva-crowdfunding?datasetId=12414&searchQuery=Model+
 * Kiva webscraped data obatined from - https://api.kivaws.org/graphql
-* Streamlit presentation- http://localhost:8501/
+* Streamlit presentation- https://www.linkedin.com/feed/update/urn:li:activity:7069289318636236800/
